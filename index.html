@@ -6,10 +6,6 @@
     <!-- <meta name="viewport" content="width=device-width height=device-width" /> -->
     <meta charset="UTF-8" />
     <meta content="origin" name="referrer" />
-    <meta
-      content="/images/branding/googleg/1x/googleg_standard_color_128dp.png"
-      itemprop="image"
-    />
     <link
       href="/manifest?pwa=webhp"
       crossorigin="use-credentials"
@@ -28,8 +24,8 @@
   <body>
     <!-- Start of header tag -->
     <div class="header">
-      <a id="header-elements" href="#">Gmail</a>
-      <a id="header-elements" href="#">Images</a>
+      <a id="header-elements-gmail" href="#">Gmail</a>
+      <a id="header-elements-images" href="#">Images</a>
     </div>
     <!-- End of header tag -->
 
@@ -46,10 +42,9 @@
         <!-- Buttons -->
         <input id="submit-search-button" type="submit" value="Google Search" />
 
-        <a href="https://www.google.com/doodles"
-          ><button id="image-search-button" type="button">
+        <button id="image-search-button" type="submit" formaction="https://www.google.com/doodles">
             I am Feeling Lucky
-          </button></a
+          </button>
         >
       </form>
 
